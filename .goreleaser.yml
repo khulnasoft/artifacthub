@@ -120,8 +120,8 @@ brews:
       owner: artifacthub
       name: homebrew-cmd
     commit_author:
-      name: artifacthubio
-      email: hub@artifacthub.io
+      name: khulnasoft
+      email: support@khulnasoft.com
 
 scoops:
   - description: Artifact Hub command line tool
@@ -131,8 +131,8 @@ scoops:
       owner: artifacthub
       name: scoop-cmd
     commit_author:
-      name: artifacthubio
-      email: hub@artifacthub.io
+      name: khulnasoft
+      email: support@khulnasoft.com
 
 signs:
   - artifacts: checksum

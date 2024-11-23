@@ -77,7 +77,7 @@ helm install \
   --set db.host=<DB_HOST> \
   --set db.password=<DB_PASSWORD> \
   --set email.fromName="Artifact Hub" \
-  --set email.from=hub@artifacthub.io \
+  --set email.from=support@khulnasoft.com \
   --set email.replyTo=no-reply@artifacthub.io \
   --set email.smtp.host=<SMTP_HOST> \
   --set email.smtp.port=<SMTP_PORT> \

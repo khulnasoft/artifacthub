@@ -55,14 +55,14 @@ Artifact Hub is a [CNCF Incubating Project](https://www.cncf.io/projects/).
 <br/>
 <table>
     <tr>
-        <td width="33%"><img src="https://artifacthub.github.io/hub/screenshots/screenshot1.jpg"></td>
-        <td width="33%"><img src="https://artifacthub.github.io/hub/screenshots/screenshot2.jpg"></td>
-        <td width="33%"><img src="https://artifacthub.github.io/hub/screenshots/screenshot3.jpg"></td>
+        <td width="33%"><img src="https://khulnasoft.github.io/hub/screenshots/screenshot1.jpg"></td>
+        <td width="33%"><img src="https://khulnasoft.github.io/hub/screenshots/screenshot2.jpg"></td>
+        <td width="33%"><img src="https://khulnasoft.github.io/hub/screenshots/screenshot3.jpg"></td>
     </tr>
     <tr>
-        <td width="33%"><img src="https://artifacthub.github.io/hub/screenshots/screenshot4.jpg"></td>
-        <td width="33%"><img src="https://artifacthub.github.io/hub/screenshots/screenshot5.jpg"></td>
-        <td width="33%"><img src="https://artifacthub.github.io/hub/screenshots/screenshot6.jpg"></td>
+        <td width="33%"><img src="https://khulnasoft.github.io/hub/screenshots/screenshot4.jpg"></td>
+        <td width="33%"><img src="https://khulnasoft.github.io/hub/screenshots/screenshot5.jpg"></td>
+        <td width="33%"><img src="https://khulnasoft.github.io/hub/screenshots/screenshot6.jpg"></td>
     </tr>
 </table>
 

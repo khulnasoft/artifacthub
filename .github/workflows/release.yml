@@ -51,7 +51,7 @@ jobs:
       - name: Checkout Helm charts repo
         uses: actions/checkout@v4
         with:
-          repository: artifacthub/helm-charts
+          repository: khulnasoft/helm-charts
           path: helm-charts
           token: ${{ secrets.GHT_RELEASE }}
       - name: Extract tag name
@@ -61,11 +61,11 @@ jobs:
         run: |
           mkdir tmp && cd tmp
           helm package -u ../charts/artifact-hub
-          helm repo index --merge ../helm-charts/index.yaml --url https://artifacthub.github.io/helm-charts .
+          helm repo index --merge ../helm-charts/index.yaml --url https://khulnasoft.github.io/helm-charts .
           mv * ../helm-charts
           cd ../helm-charts
-          git config user.name artifacthubio
-          git config user.email hub@artifacthub.io
+          git config user.name khulnasoft
+          git config user.email support@khulnasoft.com
           git add .
           git commit -m "Add Artifact Hub chart package ${{steps.extract_tag_name.outputs.tag}}"
           git push

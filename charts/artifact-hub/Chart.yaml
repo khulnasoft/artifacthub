@@ -6,7 +6,7 @@ version: 1.21.0-0
 appVersion: 1.20.0
 kubeVersion: ">= 1.19.0-0"
 home: https://artifacthub.io
-icon: https://artifacthub.github.io/helm-charts/logo.png
+icon: https://khulnasoft.github.io/helm-charts/logo.png
 keywords:
   - kubernetes
   - helm
@@ -102,14 +102,14 @@ annotations:
       url: https://github.com/khulnasoft/artifacthub/issues
   artifacthub.io/screenshots: |
     - title: Home page
-      url: https://artifacthub.github.io/hub/screenshots/screenshot1.jpg
+      url: https://khulnasoft.github.io/hub/screenshots/screenshot1.jpg
     - title: Packages search
-      url: https://artifacthub.github.io/hub/screenshots/screenshot2.jpg
+      url: https://khulnasoft.github.io/hub/screenshots/screenshot2.jpg
     - title: Package details
-      url: https://artifacthub.github.io/hub/screenshots/screenshot3.jpg
+      url: https://khulnasoft.github.io/hub/screenshots/screenshot3.jpg
     - title: Security report
-      url: https://artifacthub.github.io/hub/screenshots/screenshot4.jpg
+      url: https://khulnasoft.github.io/hub/screenshots/screenshot4.jpg
     - title: Values schema
-      url: https://artifacthub.github.io/hub/screenshots/screenshot5.jpg
+      url: https://khulnasoft.github.io/hub/screenshots/screenshot5.jpg
     - title: Changelog
-      url: https://artifacthub.github.io/hub/screenshots/screenshot6.jpg
+      url: https://khulnasoft.github.io/hub/screenshots/screenshot6.jpg
