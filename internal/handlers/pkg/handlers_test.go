@@ -14,6 +14,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/go-chi/chi/v5"
 	"github.com/khulnasoft/artifacthub/internal/handlers/helpers"
 	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/khulnasoft/artifacthub/internal/oci"
@@ -21,7 +22,6 @@ import (
 	"github.com/khulnasoft/artifacthub/internal/repo"
 	"github.com/khulnasoft/artifacthub/internal/tests"
 	"github.com/khulnasoft/artifacthub/internal/tracker/source/helm"
-	"github.com/go-chi/chi/v5"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/rs/zerolog"
 	"github.com/spf13/viper"

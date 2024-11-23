@@ -5,7 +5,7 @@ COPY go.* ./
 COPY cmd/artifacthub cmd/artifacthub
 COPY internal internal
 WORKDIR /go/src/github.com/khulnasoft/artifacthub/cmd/artifacthub
-RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o /hub .
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o /artifacthub .
 
 # Build frontend
 FROM node:23-alpine3.20 AS frontend-builder
@@ -37,12 +37,12 @@ RUN hugo
 FROM alpine:3.20.3
 RUN apk --no-cache add ca-certificates && addgroup -S hub -g 1000 && adduser -S hub -u 1000 -G hub
 USER 1000
-WORKDIR /home/hub
-COPY --from=backend-builder /hub ./
+WORKDIR /home/artifacthub
+COPY --from=backend-builder /artifacthub ./
 COPY --from=frontend-builder /web/build ./web
 COPY --from=frontend-builder /web/package.json ./web
 COPY --from=widget-builder /widget/build ./widget
 COPY --from=docs-builder /web/build/docs ./web/docs
 COPY --from=docs-builder /docs/api ./web/docs/api
-CMD ["./hub"]
+CMD ["./artifacthub"]
 EXPOSE 8000

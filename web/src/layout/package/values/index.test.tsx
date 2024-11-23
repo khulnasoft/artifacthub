@@ -106,7 +106,7 @@ hub:
     allowPrivateRepositories: false
     allowUserSignUp: true
     cacheDir: ""
-    configDir: "/home/hub/.cfg"
+    configDir: "/home/artifacthub/.cfg"
     baseURL: ""
     shutdownTimeout: 10s
     motd: ""

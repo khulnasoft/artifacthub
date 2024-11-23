@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"text/template"
 
+	"github.com/go-chi/chi/v5"
 	"github.com/khulnasoft/artifacthub/internal/handlers/helpers"
 	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/khulnasoft/artifacthub/internal/notification"
-	"github.com/go-chi/chi/v5"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )

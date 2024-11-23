@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/khulnasoft/artifacthub/internal/email"
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/khulnasoft/artifacthub/internal/email"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

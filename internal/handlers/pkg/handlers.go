@@ -12,11 +12,11 @@ import (
 	"time"
 
 	"github.com/Masterminds/semver/v3"
+	"github.com/go-chi/chi/v5"
+	"github.com/gorilla/feeds"
 	"github.com/khulnasoft/artifacthub/internal/handlers/helpers"
 	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/khulnasoft/artifacthub/internal/tracker/source/helm"
-	"github.com/go-chi/chi/v5"
-	"github.com/gorilla/feeds"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"

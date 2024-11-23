@@ -14,11 +14,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/go-chi/chi/v5"
+	svg "github.com/h2non/go-is-svg"
 	"github.com/khulnasoft/artifacthub/internal/handlers/helpers"
 	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/khulnasoft/artifacthub/internal/img"
-	"github.com/go-chi/chi/v5"
-	svg "github.com/h2non/go-is-svg"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"

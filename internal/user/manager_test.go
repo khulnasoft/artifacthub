@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jackc/pgx/v4"
 	"github.com/khulnasoft/artifacthub/internal/email"
 	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/khulnasoft/artifacthub/internal/tests"
-	"github.com/jackc/pgx/v4"
 	"github.com/pquerna/otp/totp"
 	"github.com/satori/uuid"
 	"github.com/spf13/viper"

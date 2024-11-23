@@ -11,12 +11,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/go-chi/chi/v5"
 	"github.com/khulnasoft/artifacthub/internal/handlers/helpers"
 	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/khulnasoft/artifacthub/internal/notification"
 	"github.com/khulnasoft/artifacthub/internal/tests"
 	"github.com/khulnasoft/artifacthub/internal/webhook"
-	"github.com/go-chi/chi/v5"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

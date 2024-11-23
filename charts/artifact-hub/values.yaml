@@ -195,7 +195,7 @@ hub:
     # defaults to $HOME/.cache), and the directory will be mounted as ephemeral volume (emptyDir)
     cacheDir: ""
     # Directory path where the configuration files should be mounted
-    configDir: "/home/hub/.cfg"
+    configDir: "/home/artifacthub/.cfg"
     # Banners configuration file url
     bannersURL: ""
     # Hub server base url

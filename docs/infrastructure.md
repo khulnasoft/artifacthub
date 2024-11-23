@@ -84,7 +84,7 @@ helm install \
   --set email.smtp.username=<SMTP_USERNAME> \
   --set email.smtp.password=<SMTP_PASSWORD> \
   --set dbMigrator.job.image.repository=<AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com/db-migrator \
-  --set hub.deploy.image.repository=<AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com/hub \
+  --set hub.deploy.image.repository=<AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com/artifacthub \
   --set hub.ingress.annotations."alb\.ingress\.kubernetes\.io/certificate-arn"=<CERTIFICATE_ARN> \
   --set hub.ingress.annotations."alb\.ingress\.kubernetes\.io/wafv2-acl-arn"=<ACL_ARN> \
   --set hub.server.cookie.hashKey=<COOKIE_HASHKEY> \

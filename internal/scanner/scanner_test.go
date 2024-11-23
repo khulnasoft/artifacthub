@@ -187,7 +187,7 @@ var sampleReport2Data = []byte(`
       "Type": "alpine"
     },
     {
-      "Target": "home/hub/hub",
+      "Target": "home/artifacthub/artifacthub",
       "Class": "lang-pkgs",
       "Type": "gobinary",
       "Vulnerabilities": [
@@ -331,7 +331,7 @@ var sampleReport2Data = []byte(`
       ]
     },
     {
-      "Target": "home/hub/web/yarn.lock",
+      "Target": "home/artifacthub/web/yarn.lock",
       "Class": "lang-pkgs",
       "Type": "yarn",
       "Vulnerabilities": [

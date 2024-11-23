@@ -236,7 +236,7 @@ exports[`Group creates snapshot 1`] = `
         >
           <a
             class="sc-dstKZu bdYaiF"
-            href="https://localhost:8000/packages/helm/s4nhub-helm-charts/hub-scala-base"
+            href="https://localhost:8000/packages/helm/s4nhub-helm-charts/artifacthub-scala-base"
             rel="noopener noreferrer"
             target="_blank"
           >

@@ -17,15 +17,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/khulnasoft/artifacthub/internal/hub"
-	"github.com/khulnasoft/artifacthub/internal/img"
-	"github.com/khulnasoft/artifacthub/internal/oci"
-	"github.com/khulnasoft/artifacthub/internal/pkg"
 	"github.com/google/go-containerregistry/pkg/name"
 	v1 "github.com/google/go-containerregistry/pkg/v1"
 	"github.com/google/go-containerregistry/pkg/v1/remote"
 	"github.com/google/go-containerregistry/pkg/v1/types"
 	"github.com/hashicorp/go-multierror"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/img"
+	"github.com/khulnasoft/artifacthub/internal/oci"
+	"github.com/khulnasoft/artifacthub/internal/pkg"
 	"github.com/spf13/viper"
 )
 
