@@ -73,7 +73,7 @@ dockers:
       - "public.ecr.aws/artifacthub/db-migrator:latest"
     extra_files:
       - database/migrations
-  - dockerfile: cmd/hub/Dockerfile
+  - dockerfile: cmd/artifacthub/Dockerfile
     image_templates:
       - "khulnasoft/artifacthub:{{ .Tag }}"
       - "khulnasoft/artifacthub:latest"

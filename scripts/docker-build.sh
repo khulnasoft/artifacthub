@@ -29,7 +29,7 @@ docker build \
 
 # hub
 docker build \
-    -f cmd/hub/Dockerfile \
+    -f cmd/artifacthub/Dockerfile \
     -t khulnasoft/artifacthub \
     -t khulnasoft/artifacthub:$GIT_SHA \
 .

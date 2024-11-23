@@ -5,47 +5,45 @@ on:
     branches:
       - master
 
-permissions: read-all
+permissions:
+  contents: read
+  packages: write  # Required for pushing images to GitHub Container Registry
 
 jobs:
   build-docker-images:
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-20.04
+
     steps:
       - name: Free disk space
         uses: khulnasoft-lab/free-disk-space@master
+
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v4
+
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v2
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-2
-      - name: Login to AWS ECR
-        id: login-ecr
-        uses: aws-actions/amazon-ecr-login@v2
-      - name: Build, tag and push hub image
-        env:
-          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          registry: ghcr.io
+          username: ${{ secrets.GITHUB_ACTOR }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build, tag, and push hub image
         run: |
-          docker build -f cmd/hub/Dockerfile -t $ECR_REGISTRY/hub:$GITHUB_SHA .
-          docker push $ECR_REGISTRY/hub:$GITHUB_SHA
-      - name: Build, tag and push db-migrator image
-        env:
-          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          docker build -f cmd/artifacthub/Dockerfile -t ghcr.io/${{ github.repository_owner }}/hub:$GITHUB_SHA .
+          docker push ghcr.io/${{ github.repository_owner }}/hub:$GITHUB_SHA
+
+      - name: Build, tag, and push db-migrator image
         run: |
-          docker build -f database/migrations/Dockerfile -t $ECR_REGISTRY/db-migrator:$GITHUB_SHA .
-          docker push $ECR_REGISTRY/db-migrator:$GITHUB_SHA
-      - name: Build, tag and push scanner image
-        env:
-          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          docker build -f database/migrations/Dockerfile -t ghcr.io/${{ github.repository_owner }}/db-migrator:$GITHUB_SHA .
+          docker push ghcr.io/${{ github.repository_owner }}/db-migrator:$GITHUB_SHA
+
+      - name: Build, tag, and push scanner image
         run: |
-          docker build -f cmd/scanner/Dockerfile -t $ECR_REGISTRY/scanner:$GITHUB_SHA .
-          docker push $ECR_REGISTRY/scanner:$GITHUB_SHA
-      - name: Build, tag and push tracker image
-        env:
-          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          docker build -f cmd/scanner/Dockerfile -t ghcr.io/${{ github.repository_owner }}/scanner:$GITHUB_SHA .
+          docker push ghcr.io/${{ github.repository_owner }}/scanner:$GITHUB_SHA
+
+      - name: Build, tag, and push tracker image
         run: |
-          docker build -f cmd/tracker/Dockerfile -t $ECR_REGISTRY/tracker:$GITHUB_SHA .
-          docker push $ECR_REGISTRY/tracker:$GITHUB_SHA
+          docker build -f cmd/tracker/Dockerfile -t ghcr.io/${{ github.repository_owner }}/tracker:$GITHUB_SHA .
+          docker push ghcr.io/${{ github.repository_owner }}/tracker:$GITHUB_SHA
