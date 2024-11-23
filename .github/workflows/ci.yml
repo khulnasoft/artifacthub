@@ -198,7 +198,7 @@ jobs:
           sudo tar -C /usr/local -xzf ${FILENAME}
           sudo ldconfig /usr/local/lib
       - name: Build hub
-        working-directory: ./cmd/hub
+        working-directory: ./cmd/artifacthub
         run: go build -v
       - name: Build scanner
         working-directory: ./cmd/scanner

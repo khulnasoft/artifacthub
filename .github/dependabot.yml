@@ -54,7 +54,7 @@ updates:
       interval: "weekly"
 
   - package-ecosystem: "docker"
-    directory: "/cmd/hub"
+    directory: "/cmd/artifacthub"
     schedule:
       interval: "weekly"
     ignore:

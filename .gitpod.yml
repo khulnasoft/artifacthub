@@ -31,7 +31,7 @@ tasks:
       echo -e "\tPassword: changeme\n"
       mkdir ~/.cfg
       cp /workspace/hub/.gitpod/*.yaml ~/.cfg
-      cd /workspace/hub/cmd/hub && go run *.go
+      cd /workspace/hub/cmd/artifacthub && go run *.go
 ports:
   - port: 3000
     onOpen: ignore

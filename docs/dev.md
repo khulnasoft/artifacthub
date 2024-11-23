@@ -258,7 +258,7 @@ alias hub_db_migrate_tests="pushd $HUB_SOURCE/database/migrations; TERN_CONF=~/.
 alias hub_db_tests="pushd $HUB_SOURCE/database/tests; pg_prove --host localhost --dbname hub_tests --username postgres --verbose **/*.sql; popd"
 alias hub_db_backup="pg_dump --data-only --exclude-table-data=repository_kind --exclude-table-data=event_kind -U postgres hub > $HUB_DB_BACKUP"
 alias hub_db_restore="psql -U postgres hub < $HUB_DB_BACKUP"
-alias hub_server="pushd $HUB_SOURCE/cmd/hub; go run -mod=readonly *.go; popd"
+alias hub_server="pushd $HUB_SOURCE/cmd/artifacthub; go run -mod=readonly *.go; popd"
 alias hub_tracker="pushd $HUB_SOURCE/cmd/tracker; go run -mod=readonly main.go; popd"
 alias hub_scanner="pushd $HUB_SOURCE/cmd/scanner; go run -mod=readonly main.go; popd"
 alias hub_backend_tests="pushd $HUB_SOURCE; go test -cover -race -mod=readonly -count=1 ./...; popd"

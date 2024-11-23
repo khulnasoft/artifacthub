@@ -82,7 +82,7 @@ dockers:
     extra_files:
       - go.mod
       - go.sum
-      - cmd/hub
+      - cmd/artifacthub
       - docs
       - internal
       - scripts
