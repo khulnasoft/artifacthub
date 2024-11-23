@@ -497,10 +497,10 @@
                             "description": "Directory path where the configuration files should be mounted.",
                             "type": "string",
                             "enum": [
-                                "/home/hub/.cfg",
+                                "/home/artifacthub/.cfg",
                                 "/artifacthub/.cfg"
                             ],
-                            "default": "/home/hub/.cfg"
+                            "default": "/home/artifacthub/.cfg"
                         },
                         "baseURL": {
                             "title": "Hub server base url",

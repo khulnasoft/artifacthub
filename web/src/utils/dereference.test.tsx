@@ -1331,10 +1331,10 @@ const tests: Test[] = [
                   },
                 },
                 configDir: {
-                  enum: ['/home/hub/.cfg', '/artifacthub/.cfg'],
+                  enum: ['/home/artifacthub/.cfg', '/artifacthub/.cfg'],
                   type: 'string',
                   title: 'Config directory path',
-                  default: '/home/hub/.cfg',
+                  default: '/home/artifacthub/.cfg',
                   description: 'Directory path where the configuration files should be mounted.',
                 },
                 motdSeverity: {
@@ -1992,10 +1992,10 @@ const tests: Test[] = [
                   },
                 },
                 configDir: {
-                  enum: ['/home/hub/.cfg', '/artifacthub/.cfg'],
+                  enum: ['/home/artifacthub/.cfg', '/artifacthub/.cfg'],
                   type: 'string',
                   title: 'Config directory path',
-                  default: '/home/hub/.cfg',
+                  default: '/home/artifacthub/.cfg',
                   description: 'Directory path where the configuration files should be mounted.',
                 },
                 motdSeverity: {

@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/jackc/pgx/v4"
 	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/khulnasoft/artifacthub/internal/util"
-	"github.com/jackc/pgx/v4"
 	"github.com/rs/zerolog/log"
 )
 

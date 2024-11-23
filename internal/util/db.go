@@ -8,10 +8,10 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/log/zerologadapter"
 	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"
 )

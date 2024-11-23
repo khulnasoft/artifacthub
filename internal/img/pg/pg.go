@@ -6,11 +6,11 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/khulnasoft/artifacthub/internal/hub"
-	"github.com/khulnasoft/artifacthub/internal/img"
 	svg "github.com/h2non/go-is-svg"
 	lru "github.com/hashicorp/golang-lru/v2"
 	"github.com/jackc/pgx/v4"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/img"
 	"github.com/spf13/viper"
 )
 

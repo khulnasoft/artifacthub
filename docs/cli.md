@@ -27,7 +27,7 @@ scoop install artifacthub/ah
 
 ### Docker
 
-You can run `ah` from a Docker container. The latest Docker image available can be found in the [Docker Hub](https://hub.docker.com/r/artifacthub/ah/tags).
+You can run `ah` from a Docker container. The latest Docker image available can be found in the [Docker Hub](https://artifacthub.docker.com/r/artifacthub/ah/tags).
 
 ### Compiling from source
 

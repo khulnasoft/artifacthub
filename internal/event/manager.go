@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/jackc/pgx/v4"
+	"github.com/khulnasoft/artifacthub/internal/hub"
 )
 
 const (

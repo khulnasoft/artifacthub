@@ -17,6 +17,7 @@ import (
 	"sync"
 
 	"github.com/Masterminds/semver/v3"
+	"github.com/hashicorp/go-multierror"
 	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/khulnasoft/artifacthub/internal/license"
 	"github.com/khulnasoft/artifacthub/internal/oci"
@@ -24,7 +25,6 @@ import (
 	"github.com/khulnasoft/artifacthub/internal/repo"
 	"github.com/khulnasoft/artifacthub/internal/tracker/source"
 	"github.com/khulnasoft/artifacthub/internal/util"
-	"github.com/hashicorp/go-multierror"
 	"gopkg.in/yaml.v3"
 	"helm.sh/helm/v3/pkg/action"
 	"helm.sh/helm/v3/pkg/chart"

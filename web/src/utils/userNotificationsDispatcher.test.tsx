@@ -82,7 +82,7 @@ describe('userNotificationsDispatcher', () => {
       displayed: [],
     });
 
-    userNotificationsDispatcher.dismissNotification('/packages/helm/hub/artifact-hub');
+    userNotificationsDispatcher.dismissNotification('/packages/helm/artifacthub/artifact-hub');
 
     act(() => {
       jest.advanceTimersByTime(20000);

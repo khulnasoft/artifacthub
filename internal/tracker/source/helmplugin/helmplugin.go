@@ -8,11 +8,11 @@ import (
 	"regexp"
 
 	"github.com/Masterminds/semver/v3"
+	"github.com/hashicorp/go-multierror"
 	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/khulnasoft/artifacthub/internal/license"
 	"github.com/khulnasoft/artifacthub/internal/pkg"
 	"github.com/khulnasoft/artifacthub/internal/util"
-	"github.com/hashicorp/go-multierror"
 	"helm.sh/helm/v3/pkg/plugin"
 	"sigs.k8s.io/yaml"
 )

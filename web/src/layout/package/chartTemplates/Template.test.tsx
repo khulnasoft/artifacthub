@@ -65,7 +65,7 @@ const defaultProps = {
             username: 'hub',
           },
           cacheDir: '',
-          configDir: '/home/hub/.cfg',
+          configDir: '/home/artifacthub/.cfg',
           cookie: {
             hashKey: 'default-unsafe-key',
             secure: false,

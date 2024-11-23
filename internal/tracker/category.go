@@ -4,9 +4,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/khulnasoft/artifacthub/internal/hub"
 	tf "github.com/galeone/tensorflow/tensorflow/go"
 	tg "github.com/galeone/tfgo"
+	"github.com/khulnasoft/artifacthub/internal/hub"
 )
 
 // PackageCategoryClassifierML classifies packages by category using a ML model.

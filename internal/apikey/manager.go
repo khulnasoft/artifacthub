@@ -9,9 +9,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/jackc/pgx/v4"
 	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/khulnasoft/artifacthub/internal/util"
-	"github.com/jackc/pgx/v4"
 	"github.com/satori/uuid"
 )
 

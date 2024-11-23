@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/Masterminds/semver/v3"
-	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/google/go-containerregistry/pkg/authn"
 	"github.com/google/go-containerregistry/pkg/name"
 	"github.com/google/go-containerregistry/pkg/v1/remote"
+	"github.com/khulnasoft/artifacthub/internal/hub"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	csremote "github.com/sigstore/cosign/pkg/oci/remote"
 	"github.com/sigstore/cosign/pkg/types"

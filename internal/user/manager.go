@@ -15,10 +15,10 @@ import (
 
 	_ "embed" // Used by templates
 
+	"github.com/jackc/pgx/v4"
 	"github.com/khulnasoft/artifacthub/internal/email"
 	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/khulnasoft/artifacthub/internal/util"
-	"github.com/jackc/pgx/v4"
 	"github.com/pquerna/otp"
 	"github.com/pquerna/otp/totp"
 	"github.com/satori/uuid"

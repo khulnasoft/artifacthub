@@ -49,5 +49,5 @@ Once you have added your repository, you are all set up. As you add new versions
 
 ### Example repository: Tinkerbell Community
 
-- Actions source GitHub URL: [https://github.com/tinkerbell/hub/tree/artifacthub-manifests/actions](https://github.com/tinkerbell/hub/tree/artifacthub-manifests/actions)
-- Repository URL used in Artifact Hub: `https://github.com/tinkerbell/hub/actions` (please note how the *tree/artifacthub-manifests* part is not used)
+- Actions source GitHub URL: [https://github.com/tinkerbell/artifacthub/tree/artifacthub-manifests/actions](https://github.com/tinkerbell/artifacthub/tree/artifacthub-manifests/actions)
+- Repository URL used in Artifact Hub: `https://github.com/tinkerbell/artifacthub/actions` (please note how the *tree/artifacthub-manifests* part is not used)

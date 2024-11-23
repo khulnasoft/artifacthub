@@ -7,7 +7,7 @@
     },
     {
       "Type": "yarn",
-      "Target": "home/hub/web/yarn.lock",
+      "Target": "home/artifacthub/web/yarn.lock",
       "Vulnerabilities": [
         {
           "CVSS": {

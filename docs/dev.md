@@ -73,7 +73,7 @@ hub_db_recreate_tests && hub_db_tests
 
 ### Docker
 
-If you opt for running PostgreSQL locally using Docker, [this Dockerfile](https://github.com/khulnasoft/artifacthub/blob/master/database/tests/Dockerfile-postgres) used to build the images used by the [CI workflow](https://github.com/khulnasoft/artifacthub/blob/master/.github/workflows/ci.yml) can be helpful as a starting point. Image used by the CI workflow can be found in the Docker Hub as [artifacthub/postgres-pgtap](https://hub.docker.com/r/artifacthub/postgres-pgtap).
+If you opt for running PostgreSQL locally using Docker, [this Dockerfile](https://github.com/khulnasoft/artifacthub/blob/master/database/tests/Dockerfile-postgres) used to build the images used by the [CI workflow](https://github.com/khulnasoft/artifacthub/blob/master/.github/workflows/ci.yml) can be helpful as a starting point. Image used by the CI workflow can be found in the Docker Hub as [artifacthub/postgres-pgtap](https://artifacthub.docker.com/r/artifacthub/postgres-pgtap).
 
 ## Backend
 
@@ -239,7 +239,7 @@ hub_frontend_lint_fix
 The following aliases are used by some of the maintainers and are provided only as examples. Please feel free to adapt them to suit your needs.
 
 ```sh
-export HUB_SOURCE=~/projects/hub
+export HUB_SOURCE=~/projects/artifacthub
 export HUB_DATA=~/tmp/data_hub
 export HUB_DB_BACKUP=~/tmp/artifacthub-backup.local.sql
 

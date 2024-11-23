@@ -102,14 +102,14 @@ annotations:
       url: https://github.com/khulnasoft/artifacthub/issues
   artifacthub.io/screenshots: |
     - title: Home page
-      url: https://khulnasoft.github.io/hub/screenshots/screenshot1.jpg
+      url: https://khulnasoft.github.io/artifacthub/screenshots/screenshot1.jpg
     - title: Packages search
-      url: https://khulnasoft.github.io/hub/screenshots/screenshot2.jpg
+      url: https://khulnasoft.github.io/artifacthub/screenshots/screenshot2.jpg
     - title: Package details
-      url: https://khulnasoft.github.io/hub/screenshots/screenshot3.jpg
+      url: https://khulnasoft.github.io/artifacthub/screenshots/screenshot3.jpg
     - title: Security report
-      url: https://khulnasoft.github.io/hub/screenshots/screenshot4.jpg
+      url: https://khulnasoft.github.io/artifacthub/screenshots/screenshot4.jpg
     - title: Values schema
-      url: https://khulnasoft.github.io/hub/screenshots/screenshot5.jpg
+      url: https://khulnasoft.github.io/artifacthub/screenshots/screenshot5.jpg
     - title: Changelog
-      url: https://khulnasoft.github.io/hub/screenshots/screenshot6.jpg
+      url: https://khulnasoft.github.io/artifacthub/screenshots/screenshot6.jpg

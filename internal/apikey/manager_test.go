@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/jackc/pgx/v4"
 	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/khulnasoft/artifacthub/internal/tests"
-	"github.com/jackc/pgx/v4"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

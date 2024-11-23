@@ -11,11 +11,11 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/jackc/pgx/v4"
 	"github.com/khulnasoft/artifacthub/internal/email"
 	"github.com/khulnasoft/artifacthub/internal/handlers/pkg"
 	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/khulnasoft/artifacthub/internal/util"
-	"github.com/jackc/pgx/v4"
 	"github.com/patrickmn/go-cache"
 	"github.com/rs/zerolog/log"
 )
