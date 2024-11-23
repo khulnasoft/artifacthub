@@ -356,10 +356,10 @@ exports[`ChartTemplatesModal creates snapshot 1`] = `
                         </button>
                       </div>
                       <div
-                        id="tmpl_artifacthub_deployment.yaml"
+                        id="tmpl_hub_deployment.yaml"
                       >
                         <button
-                          aria-label="Show template artifacthub_deployment.yaml"
+                          aria-label="Show template hub_deployment.yaml"
                           aria-pressed="false"
                           class="btn btn-light btn-sm mb-2 text-start w-100 btn"
                         >
@@ -402,10 +402,10 @@ exports[`ChartTemplatesModal creates snapshot 1`] = `
                         </button>
                       </div>
                       <div
-                        id="tmpl_artifacthub_ingress.yaml"
+                        id="tmpl_hub_ingress.yaml"
                       >
                         <button
-                          aria-label="Show template artifacthub_ingress.yaml"
+                          aria-label="Show template hub_ingress.yaml"
                           aria-pressed="false"
                           class="btn btn-light btn-sm mb-2 text-start w-100 btn"
                         >
@@ -448,10 +448,10 @@ exports[`ChartTemplatesModal creates snapshot 1`] = `
                         </button>
                       </div>
                       <div
-                        id="tmpl_artifacthub_secret.yaml"
+                        id="tmpl_hub_secret.yaml"
                       >
                         <button
-                          aria-label="Show template artifacthub_secret.yaml"
+                          aria-label="Show template hub_secret.yaml"
                           aria-pressed="false"
                           class="btn btn-light btn-sm mb-2 text-start w-100 btn"
                         >
@@ -497,7 +497,7 @@ exports[`ChartTemplatesModal creates snapshot 1`] = `
                         id="tmpl_hub_service.yaml"
                       >
                         <button
-                          aria-label="Show template artifacthub_service.yaml"
+                          aria-label="Show template hub_service.yaml"
                           aria-pressed="false"
                           class="btn btn-light btn-sm mb-2 text-start w-100 btn"
                         >
@@ -519,7 +519,7 @@ exports[`ChartTemplatesModal creates snapshot 1`] = `
                               <div
                                 class="text-truncate templateName"
                               >
-                                artifacthub_service.yaml
+                                hub_service.yaml
                               </div>
                             </div>
                             <div
@@ -540,10 +540,10 @@ exports[`ChartTemplatesModal creates snapshot 1`] = `
                         </button>
                       </div>
                       <div
-                        id="tmpl_artifacthub_serviceaccount.yaml"
+                        id="tmpl_hub_serviceaccount.yaml"
                       >
                         <button
-                          aria-label="Show template artifacthub_serviceaccount.yaml"
+                          aria-label="Show template hub_serviceaccount.yaml"
                           aria-pressed="false"
                           class="btn btn-light btn-sm mb-2 text-start w-100 btn"
                         >
@@ -565,7 +565,7 @@ exports[`ChartTemplatesModal creates snapshot 1`] = `
                               <div
                                 class="text-truncate templateName"
                               >
-                                artifacthub_serviceaccount.yaml
+                                hub_serviceaccount.yaml
                               </div>
                             </div>
                             <div
