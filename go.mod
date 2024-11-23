@@ -1,4 +1,4 @@
-module github.com/artifacthub/hub
+module github.com/khulnasoft/artifacthub
 
 go 1.23.1
 

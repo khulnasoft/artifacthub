@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/artifacthub/hub/internal/handlers/helpers"
-	"github.com/artifacthub/hub/internal/stats"
-	"github.com/artifacthub/hub/internal/tests"
+	"github.com/khulnasoft/artifacthub/internal/handlers/helpers"
+	"github.com/khulnasoft/artifacthub/internal/stats"
+	"github.com/khulnasoft/artifacthub/internal/tests"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
 )

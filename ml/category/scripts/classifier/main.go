@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/artifacthub/hub/internal/hub"
-	"github.com/artifacthub/hub/internal/tracker"
-	"github.com/artifacthub/hub/internal/util"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/tracker"
+	"github.com/khulnasoft/artifacthub/internal/util"
 	"github.com/rs/zerolog/log"
 )
 

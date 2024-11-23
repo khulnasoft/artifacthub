@@ -68,7 +68,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Run CloMonitor linter
-        run: clomonitor-linter --path . --url https://github.com/artifacthub/hub
+        run: clomonitor-linter --path . --url https://github.com/khulnasoft/artifacthub
 
   tests-database:
     runs-on: ubuntu-20.04

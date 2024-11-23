@@ -23,7 +23,7 @@ entries:
           description: Bump Trivy to 0.19.2
           links:
             - name: Trivy migrating to new JSON schema
-              url: https://github.com/artifacthub/hub/pull/1437#issue-689445316
+              url: https://github.com/khulnasoft/artifacthub/pull/1437#issue-689445316
         - kind: changed
           description: Bump OPM to 1.17.5
         - kind: changed
@@ -37,7 +37,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v1.1.0
         - name: hub
-          image: artifacthub/hub:v1.1.0
+          image: khulnasoft/artifacthub:v1.1.0
         - name: tracker
           image: artifacthub/tracker:v1.1.0
         - name: scanner
@@ -92,17 +92,17 @@ entries:
           description: Add pagination support to some endpoints
           links:
             - name: GitHub PR
-              url: https://github.com/artifacthub/hub/pull/1386
+              url: https://github.com/khulnasoft/artifacthub/pull/1386
         - kind: changed
           description: Consolidate some repositories API endpoints
           links:
             - name: GitHub PR
-              url: https://github.com/artifacthub/hub/pull/1382
+              url: https://github.com/khulnasoft/artifacthub/pull/1382
         - kind: changed
           description: Refactor packages search API endpoint
           links:
             - name: GitHub PR
-              url: https://github.com/artifacthub/hub/pull/1379
+              url: https://github.com/khulnasoft/artifacthub/pull/1379
         - kind: changed
           description: Update API documentation
         - kind: changed
@@ -120,7 +120,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v1.0.0
         - name: hub
-          image: artifacthub/hub:v1.0.0
+          image: khulnasoft/artifacthub:v1.0.0
         - name: tracker
           image: artifacthub/tracker:v1.0.0
         - name: scanner
@@ -215,7 +215,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.20.0
         - name: hub
-          image: artifacthub/hub:v0.20.0
+          image: khulnasoft/artifacthub:v0.20.0
         - name: tracker
           image: artifacthub/tracker:v0.20.0
         - name: scanner
@@ -272,7 +272,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.19.0
         - name: hub
-          image: artifacthub/hub:v0.19.0
+          image: khulnasoft/artifacthub:v0.19.0
         - name: tracker
           image: artifacthub/tracker:v0.19.0
         - name: scanner
@@ -328,7 +328,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.18.0
         - name: hub
-          image: artifacthub/hub:v0.18.0
+          image: khulnasoft/artifacthub:v0.18.0
         - name: tracker
           image: artifacthub/tracker:v0.18.0
         - name: scanner
@@ -382,7 +382,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.17.0
         - name: hub
-          image: artifacthub/hub:v0.17.0
+          image: khulnasoft/artifacthub:v0.17.0
         - name: tracker
           image: artifacthub/tracker:v0.17.0
         - name: scanner
@@ -440,7 +440,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.16.0
         - name: hub
-          image: artifacthub/hub:v0.16.0
+          image: khulnasoft/artifacthub:v0.16.0
         - name: tracker
           image: artifacthub/tracker:v0.16.0
         - name: scanner
@@ -503,7 +503,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.15.0
         - name: hub
-          image: artifacthub/hub:v0.15.0
+          image: khulnasoft/artifacthub:v0.15.0
         - name: tracker
           image: artifacthub/tracker:v0.15.0
         - name: scanner
@@ -559,7 +559,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.14.0
         - name: hub
-          image: artifacthub/hub:v0.14.0
+          image: khulnasoft/artifacthub:v0.14.0
         - name: tracker
           image: artifacthub/tracker:v0.14.0
         - name: scanner
@@ -613,7 +613,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.13.0
         - name: hub
-          image: artifacthub/hub:v0.13.0
+          image: khulnasoft/artifacthub:v0.13.0
         - name: tracker
           image: artifacthub/tracker:v0.13.0
         - name: scanner
@@ -672,7 +672,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.12.0
         - name: hub
-          image: artifacthub/hub:v0.12.0
+          image: khulnasoft/artifacthub:v0.12.0
         - name: tracker
           image: artifacthub/tracker:v0.12.0
         - name: scanner
@@ -727,7 +727,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.11.0
         - name: hub
-          image: artifacthub/hub:v0.11.0
+          image: khulnasoft/artifacthub:v0.11.0
         - name: tracker
           image: artifacthub/tracker:v0.11.0
         - name: scanner
@@ -785,7 +785,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.10.0
         - name: hub
-          image: artifacthub/hub:v0.10.0
+          image: khulnasoft/artifacthub:v0.10.0
         - name: tracker
           image: artifacthub/tracker:v0.10.0
         - name: scanner
@@ -837,7 +837,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.9.0
         - name: hub
-          image: artifacthub/hub:v0.9.0
+          image: khulnasoft/artifacthub:v0.9.0
         - name: tracker
           image: artifacthub/tracker:v0.9.0
         - name: scanner
@@ -889,7 +889,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.8.0
         - name: hub
-          image: artifacthub/hub:v0.8.0
+          image: khulnasoft/artifacthub:v0.8.0
         - name: tracker
           image: artifacthub/tracker:v0.8.0
         - name: scanner
@@ -940,7 +940,7 @@ entries:
         - name: db-migrator
           image: artifacthub/db-migrator:v0.7.0
         - name: hub
-          image: artifacthub/hub:v0.7.0
+          image: khulnasoft/artifacthub:v0.7.0
         - name: tracker
           image: artifacthub/tracker:v0.7.0
         - name: scanner

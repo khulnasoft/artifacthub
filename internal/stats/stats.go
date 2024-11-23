@@ -3,8 +3,8 @@ package stats
 import (
 	"context"
 
-	"github.com/artifacthub/hub/internal/hub"
-	"github.com/artifacthub/hub/internal/util"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/util"
 )
 
 const (

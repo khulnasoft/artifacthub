@@ -1,10 +1,10 @@
 # Build backend
 FROM golang:1.23.3-alpine3.20 AS backend-builder
-WORKDIR /go/src/github.com/artifacthub/hub
+WORKDIR /go/src/github.com/khulnasoft/artifacthub
 COPY go.* ./
 COPY cmd/hub cmd/hub
 COPY internal internal
-WORKDIR /go/src/github.com/artifacthub/hub/cmd/hub
+WORKDIR /go/src/github.com/khulnasoft/artifacthub/cmd/hub
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o /hub .
 
 # Build frontend

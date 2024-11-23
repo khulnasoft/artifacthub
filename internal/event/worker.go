@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/artifacthub/hub/internal/hub"
-	"github.com/artifacthub/hub/internal/util"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/util"
 	"github.com/jackc/pgx/v4"
 	"github.com/rs/zerolog/log"
 )

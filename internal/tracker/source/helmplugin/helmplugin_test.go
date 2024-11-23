@@ -3,9 +3,9 @@ package helmplugin
 import (
 	"testing"
 
-	"github.com/artifacthub/hub/internal/hub"
-	"github.com/artifacthub/hub/internal/pkg"
-	"github.com/artifacthub/hub/internal/tracker/source"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/pkg"
+	"github.com/khulnasoft/artifacthub/internal/tracker/source"
 	"github.com/stretchr/testify/assert"
 )
 

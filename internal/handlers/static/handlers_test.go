@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/artifacthub/hub/internal/handlers/helpers"
-	"github.com/artifacthub/hub/internal/hub"
-	"github.com/artifacthub/hub/internal/img"
+	"github.com/khulnasoft/artifacthub/internal/handlers/helpers"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/img"
 	"github.com/go-chi/chi/v5"
 	"github.com/rs/zerolog"
 	"github.com/spf13/viper"

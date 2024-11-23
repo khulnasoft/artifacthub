@@ -1,7 +1,7 @@
 package tracker
 
 import (
-	"github.com/artifacthub/hub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/stretchr/testify/mock"
 )
 

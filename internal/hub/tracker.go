@@ -3,7 +3,7 @@ package hub
 import (
 	"context"
 
-	"github.com/artifacthub/hub/internal/img"
+	"github.com/khulnasoft/artifacthub/internal/img"
 	"github.com/rs/zerolog"
 	"github.com/spf13/viper"
 )

@@ -1186,7 +1186,7 @@ const tests: Test[] = [
                     repository: {
                       type: 'string',
                       title: 'Hub image repository (without the tag)',
-                      default: 'artifacthub/hub',
+                      default: 'khulnasoft/artifacthub',
                     },
                   },
                 },
@@ -1847,7 +1847,7 @@ const tests: Test[] = [
                     repository: {
                       type: 'string',
                       title: 'Hub image repository (without the tag)',
-                      default: 'artifacthub/hub',
+                      default: 'khulnasoft/artifacthub',
                     },
                   },
                 },

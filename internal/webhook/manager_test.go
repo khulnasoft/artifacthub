@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/artifacthub/hub/internal/hub"
-	"github.com/artifacthub/hub/internal/tests"
-	"github.com/artifacthub/hub/internal/util"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/tests"
+	"github.com/khulnasoft/artifacthub/internal/util"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

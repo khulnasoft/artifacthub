@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/artifacthub/hub/internal/email"
+	"github.com/khulnasoft/artifacthub/internal/email"
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"

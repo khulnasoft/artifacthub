@@ -84,7 +84,7 @@ describe('SummaryTable', () => {
       expect(screen.getByText('low')).toBeInTheDocument();
       expect(screen.getByText('unknown')).toBeInTheDocument();
       expect(screen.getByText('Total')).toBeInTheDocument();
-      expect(screen.getByText('artifacthub/hub:v0.7.0')).toBeInTheDocument();
+      expect(screen.getByText('khulnasoft/artifacthub:v0.7.0')).toBeInTheDocument();
       expect(screen.getByText('artifacthub/scanner:v0.7.0')).toBeInTheDocument();
       expect(screen.getByText('artifacthub/tracker:v0.7.0')).toBeInTheDocument();
       expect(screen.getByText('artifacthub/db-migrator:v0.7.0')).toBeInTheDocument();

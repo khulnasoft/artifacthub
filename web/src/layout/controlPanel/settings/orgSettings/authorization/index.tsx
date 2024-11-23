@@ -243,7 +243,7 @@ const AuthorizationSection = (props: Props) => {
           <>
             {error}. For more information please see the{' '}
             <ExternalLink
-              href="https://github.com/artifacthub/hub/blob/master/docs/authorization.md"
+              href="https://github.com/khulnasoft/artifacthub/blob/master/docs/authorization.md"
               className="text-primary fw-bold"
               label="Open documentation"
             >

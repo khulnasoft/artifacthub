@@ -100,7 +100,7 @@ hub:
     readinessGates: []
     replicaCount: 1
     image:
-      repository: artifacthub/hub
+      repository: khulnasoft/artifacthub
     resources: {}
   server:
     allowPrivateRepositories: false

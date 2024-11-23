@@ -1,7 +1,7 @@
 header:
   schema-version: '1.0.0'
   expiration-date: '2024-10-3T10:00:00.000Z'
-  project-url: https://github.com/artifacthub/hub
+  project-url: https://github.com/khulnasoft/artifacthub
 project-lifecycle:
   status: active
   bug-fixes-only: false
@@ -21,4 +21,4 @@ vulnerability-reporting:
   accepts-vulnerability-reports: true
 dependencies:
   env-dependencies-policy:
-    policy-url: https://github.com/artifacthub/hub/blob/master/CONTRIBUTING.md#dependencies-policy
+    policy-url: https://github.com/khulnasoft/artifacthub/blob/master/CONTRIBUTING.md#dependencies-policy

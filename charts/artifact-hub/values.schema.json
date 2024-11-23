@@ -295,7 +295,7 @@
                                 "repository": {
                                     "title": "Hub image repository (without the tag)",
                                     "type": "string",
-                                    "default": "artifacthub/hub"
+                                    "default": "khulnasoft/artifacthub"
                                 }
                             },
                             "required": [

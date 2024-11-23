@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/artifacthub/hub/internal/email"
-	"github.com/artifacthub/hub/internal/hub"
-	"github.com/artifacthub/hub/internal/tests"
+	"github.com/khulnasoft/artifacthub/internal/email"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/tests"
 	"github.com/jackc/pgx/v4"
 	"github.com/pquerna/otp/totp"
 	"github.com/satori/uuid"

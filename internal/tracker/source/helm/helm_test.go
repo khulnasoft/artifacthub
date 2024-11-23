@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/artifacthub/hub/internal/hub"
-	"github.com/artifacthub/hub/internal/oci"
-	"github.com/artifacthub/hub/internal/pkg"
-	"github.com/artifacthub/hub/internal/repo"
-	"github.com/artifacthub/hub/internal/tests"
-	"github.com/artifacthub/hub/internal/tracker/source"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/oci"
+	"github.com/khulnasoft/artifacthub/internal/pkg"
+	"github.com/khulnasoft/artifacthub/internal/repo"
+	"github.com/khulnasoft/artifacthub/internal/tests"
+	"github.com/khulnasoft/artifacthub/internal/tracker/source"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
@@ -556,7 +556,7 @@ func TestExtractContainersImages(t *testing.T) {
 		assert.Equal(t, []string{
 			"postgres:12",
 			"bitnami/kubectl:1.22",
-			"artifacthub/hub:v0.19.0",
+			"khulnasoft/artifacthub:v0.19.0",
 			"aquasec/trivy:0.16.0",
 			"docker.io/bitnami/minideb:stretch",
 			"docker.io/postgres:12",

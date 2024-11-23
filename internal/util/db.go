@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/artifacthub/hub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/log/zerologadapter"
 	"github.com/jackc/pgx/v4/pgxpool"

@@ -139,7 +139,7 @@ hub:
     replicaCount: 1
     image:
       # Hub image repository (without the tag)
-      repository: artifacthub/hub
+      repository: khulnasoft/artifacthub
     securityContext: {}
     resources: {}
     # If you do want to specify resources, uncomment the following

@@ -13,8 +13,8 @@ import (
 	"strings"
 
 	trivy "github.com/aquasecurity/trivy/pkg/types"
-	"github.com/artifacthub/hub/internal/hub"
-	"github.com/artifacthub/hub/internal/oci"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/oci"
 	"github.com/google/go-containerregistry/pkg/name"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"

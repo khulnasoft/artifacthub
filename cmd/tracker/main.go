@@ -11,13 +11,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/artifacthub/hub/internal/authz"
-	"github.com/artifacthub/hub/internal/hub"
-	"github.com/artifacthub/hub/internal/oci"
-	"github.com/artifacthub/hub/internal/pkg"
-	"github.com/artifacthub/hub/internal/repo"
-	"github.com/artifacthub/hub/internal/tracker"
-	"github.com/artifacthub/hub/internal/util"
+	"github.com/khulnasoft/artifacthub/internal/authz"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/oci"
+	"github.com/khulnasoft/artifacthub/internal/pkg"
+	"github.com/khulnasoft/artifacthub/internal/repo"
+	"github.com/khulnasoft/artifacthub/internal/tracker"
+	"github.com/khulnasoft/artifacthub/internal/util"
 	"github.com/rs/zerolog/log"
 )
 

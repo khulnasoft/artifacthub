@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/artifacthub/hub/internal/hub"
-	"github.com/artifacthub/hub/internal/oci"
-	"github.com/artifacthub/hub/internal/repo"
-	"github.com/artifacthub/hub/internal/tests"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/oci"
+	"github.com/khulnasoft/artifacthub/internal/repo"
+	"github.com/khulnasoft/artifacthub/internal/tests"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

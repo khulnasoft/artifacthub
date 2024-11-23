@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/artifacthub/hub/internal/hub"
-	"github.com/artifacthub/hub/internal/notification"
-	"github.com/artifacthub/hub/internal/subscription"
-	"github.com/artifacthub/hub/internal/tests"
-	"github.com/artifacthub/hub/internal/webhook"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/notification"
+	"github.com/khulnasoft/artifacthub/internal/subscription"
+	"github.com/khulnasoft/artifacthub/internal/tests"
+	"github.com/khulnasoft/artifacthub/internal/webhook"
 	"github.com/stretchr/testify/assert"
 )
 

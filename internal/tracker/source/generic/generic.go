@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/artifacthub/hub/internal/hub"
-	"github.com/artifacthub/hub/internal/oci"
-	"github.com/artifacthub/hub/internal/pkg"
-	"github.com/artifacthub/hub/internal/util"
+	"github.com/khulnasoft/artifacthub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/oci"
+	"github.com/khulnasoft/artifacthub/internal/pkg"
+	"github.com/khulnasoft/artifacthub/internal/util"
 	ignore "github.com/sabhiram/go-gitignore"
 	"gopkg.in/yaml.v3"
 )

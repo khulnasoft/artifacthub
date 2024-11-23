@@ -17,11 +17,11 @@ docker build \
     --label org.opencontainers.image.version=$VERSION \
     --label org.opencontainers.image.created=$TS \
     --label org.opencontainers.image.documentation='https://artifacthub.io/docs/topics/cli' \
-    --label org.opencontainers.image.source='https://github.com/artifacthub/hub/tree/${GIT_SHA}/cmd/ah' \
+    --label org.opencontainers.image.source='https://github.com/khulnasoft/artifacthub/tree/${GIT_SHA}/cmd/ah' \
     --label org.opencontainers.image.vendor='Artifact Hub' \
-    --label io.artifacthub.package.readme-url='https://raw.githubusercontent.com/artifacthub/hub/${GIT_SHA}/docs/cli.md' \
+    --label io.artifacthub.package.readme-url='https://raw.githubusercontent.com/khulnasoft/artifacthub/${GIT_SHA}/docs/cli.md' \
     --label io.artifacthub.package.maintainers='[{"name":"Artifact Hub maintainers","email":"cncf-artifacthub-maintainers@lists.cncf.io"}]' \
-    --label io.artifacthub.package.logo-url='https://raw.githubusercontent.com/artifacthub/hub/master/docs/logo/logo.svg' \
+    --label io.artifacthub.package.logo-url='https://raw.githubusercontent.com/khulnasoft/artifacthub/master/docs/logo/logo.svg' \
     --label io.artifacthub.package.keywords='artifact hub,cli,lint' \
     --label io.artifacthub.package.license='Apache-2.0' \
     --label io.artifacthub.package.alternative-locations='public.ecr.aws/artifacthub/ah' \
@@ -30,8 +30,8 @@ docker build \
 # hub
 docker build \
     -f cmd/hub/Dockerfile \
-    -t artifacthub/hub \
-    -t artifacthub/hub:$GIT_SHA \
+    -t khulnasoft/artifacthub \
+    -t khulnasoft/artifacthub:$GIT_SHA \
 .
 
 # db-migrator

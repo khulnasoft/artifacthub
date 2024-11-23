@@ -3,7 +3,7 @@ package event
 import (
 	"context"
 
-	"github.com/artifacthub/hub/internal/hub"
+	"github.com/khulnasoft/artifacthub/internal/hub"
 	"github.com/jackc/pgx/v4"
 	"github.com/stretchr/testify/mock"
 )

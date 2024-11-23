@@ -3,8 +3,8 @@ package util
 import (
 	"errors"
 
-	"github.com/artifacthub/hub/internal/img"
-	"github.com/artifacthub/hub/internal/img/pg"
+	"github.com/khulnasoft/artifacthub/internal/img"
+	"github.com/khulnasoft/artifacthub/internal/img/pg"
 	"github.com/spf13/viper"
 )
 
