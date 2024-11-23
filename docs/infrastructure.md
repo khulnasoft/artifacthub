@@ -71,8 +71,8 @@ helm install \
   --values values-<ENVIRONMENT>.yaml \
   --namespace <NAMESPACE_NAME> \
   --set imageTag=<GIT_SHA> \
-  --set creds.dockerUsername=<DOCKER_USERNAME> \
-  --set creds.dockerPassword=<DOCKER_PASSWORD> \
+  --set creds.dockerUsername=<DOCKER_USERNAMENAME> \
+  --set creds.dockerPassword=<DOCKER_TOKENWORD> \
   --set db.user=<DB_USER> \
   --set db.host=<DB_HOST> \
   --set db.password=<DB_PASSWORD> \
