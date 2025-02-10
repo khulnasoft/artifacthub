@@ -28,7 +28,9 @@ jobs:
             ${{ runner.os }}-go-
 
       - name: Remove Go Modules Cache
-        run: rm -rf ~/go/pkg/mod
+        run: |
+          chmod -R u+w ~/go/pkg/mod || true
+          rm -rf ~/go/pkg/mod || true
 
       - name: Install dependencies
         run: go mod download
